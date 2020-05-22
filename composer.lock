@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c65f856190ab507d4a6fa53344998425",
+    "content-hash": "1fcca3441181e93a712f545266885806",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -1033,6 +1033,67 @@
                 }
             ],
             "time": "2020-04-29T09:08:29+00:00"
+        },
+        {
+            "name": "lavitto/typo3-gridgallery",
+            "version": "1.0.15",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/lavitto/typo3-gridgallery.git",
+                "reference": "a164054b323a9b121b8ec1de2d1888579a3a042c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/lavitto%2Ftypo3-gridgallery/repository/archive.zip?sha=a164054b323a9b121b8ec1de2d1888579a3a042c",
+                "reference": "a164054b323a9b121b8ec1de2d1888579a3a042c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0",
+                "typo3/cms-backend": "^8.7 || ^9.5 || ^10.4",
+                "typo3/cms-core": "^8.7 || ^9.5 || ^10.4",
+                "typo3/cms-extbase": "^8.7 || ^9.5 || ^10.4",
+                "typo3/cms-fluid": "^8.7 || ^9.5 || ^10.4",
+                "typo3/cms-frontend": "^8.7 || ^9.5 || ^10.4"
+            },
+            "replace": {
+                "lavitto/typo3-gridgallery": "self.version"
+            },
+            "suggest": {
+                "lavitto/typo3-fancybox": "Provides the fancyBox click-enlarge function."
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "gridgallery",
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "web-dir": ".Build/Web"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lavitto\\Gridgallery\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Philipp Mueller",
+                    "email": "philipp.mueller@lavitto.ch",
+                    "homepage": "https://www.lavitto.ch"
+                }
+            ],
+            "description": "Grid Gallery for TYPO3",
+            "homepage": "https://www.lavitto.ch/typo3-ext-gridgallery",
+            "keywords": [
+                "extension",
+                "gallery",
+                "typo3"
+            ],
+            "time": "2020-04-23T09:45:19+00:00"
         },
         {
             "name": "nikic/php-parser",
