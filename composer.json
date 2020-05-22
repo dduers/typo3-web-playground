@@ -1,0 +1,34 @@
+{
+    "name": "dduers/typo3-web-playground",
+    "description": "TYPO3 Composer Installation Playground",
+    "type": "project",
+    "require": {
+        "helhum/typo3-secure-web": "^0.2.10",
+        "typo3/cms-tstemplate": "^10.4",
+        "typo3/cms-form": "^10.4",
+        "typo3/cms-redirects": "^10.4",
+        "typo3/cms-t3editor": "^10.4",
+        "typo3/cms-scheduler": "^10.4",
+        "typo3/cms-info": "^10.4",
+        "typo3/cms-belog": "^10.4",
+        "typo3/cms-felogin": "^10.4",
+        "typo3/cms-beuser": "^10.4",
+        "typo3/cms-reports": "^10.4",
+        "typo3/cms-setup": "^10.4",
+        "bk2k/bootstrap-package": "^11.0",
+        "georgringer/news": "^8.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Duersteler",
+            "email": "daniel.duersteler@gmail.com"
+        }
+    ],
+    "extra": {
+        "typo3/cms": {
+            "root-dir": "private",
+            "web-dir": "public"
+        }
+    }
+}
