@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "44cd9f676fe9b2a5c142ccd71a695406",
+    "content-hash": "a3a2dd6e7e8db8328eeec3ef7f757f95",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -149,12 +149,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dduers/xsite-sitepackage.git",
-                "reference": "59b132440731abd36d9e6fe604343d2de7b02af1"
+                "reference": "b44e47ca586dd344867dcabbaeb291843bca78ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dduers/xsite-sitepackage/zipball/59b132440731abd36d9e6fe604343d2de7b02af1",
-                "reference": "59b132440731abd36d9e6fe604343d2de7b02af1",
+                "url": "https://api.github.com/repos/dduers/xsite-sitepackage/zipball/b44e47ca586dd344867dcabbaeb291843bca78ce",
+                "reference": "b44e47ca586dd344867dcabbaeb291843bca78ce",
                 "shasum": ""
             },
             "require": {
@@ -175,7 +175,7 @@
             "keywords": [
                 "TYPO3 CMS"
             ],
-            "time": "2020-05-23T16:43:19+00:00"
+            "time": "2020-05-23T17:33:52+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -5665,7 +5665,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": {
         "dduers/xsite-sitepackage": 20
     },
