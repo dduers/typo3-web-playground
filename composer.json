@@ -2,7 +2,6 @@
     "name": "dduers/typo3-web-playground",
     "description": "TYPO3 Composer Installation Playground",
     "type": "project",
-    "minimum-stability": "dev",
     "require": {
         "helhum/typo3-secure-web": "^0.2.10",
         "typo3/cms-tstemplate": "^10.4",
