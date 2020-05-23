@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff7927a03cc96c5b85492eff6c2318ed",
+    "content-hash": "8479e9895564b43adfa91dab9e82c350",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -142,6 +142,40 @@
                 "text"
             ],
             "time": "2014-05-19T10:25:02+00:00"
+        },
+        {
+            "name": "dduers/xsite-sitepackage",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dduers/xsite-sitepackage.git",
+                "reference": "59b132440731abd36d9e6fe604343d2de7b02af1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dduers/xsite-sitepackage/zipball/59b132440731abd36d9e6fe604343d2de7b02af1",
+                "reference": "59b132440731abd36d9e6fe604343d2de7b02af1",
+                "shasum": ""
+            },
+            "require": {
+                "bk2k/bootstrap-package": "^11.0"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "XsiteWebDevelopmentDesign\\XsiteSitepackage\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "TYPO3 Sitepackage",
+            "homepage": "https://www.xsite.ch/",
+            "keywords": [
+                "TYPO3 CMS"
+            ],
+            "time": "2020-05-23T16:43:19+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -5631,7 +5665,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,

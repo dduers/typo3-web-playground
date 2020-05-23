@@ -2,6 +2,7 @@
     "name": "dduers/typo3-web-playground",
     "description": "TYPO3 Composer Installation Playground",
     "type": "project",
+    "minimum-stability": "dev",
     "require": {
         "helhum/typo3-secure-web": "^0.2.10",
         "typo3/cms-tstemplate": "^10.4",
@@ -18,7 +19,8 @@
         "lavitto/typo3-gridgallery": "^1.0",
         "lavitto/typo3-fancybox": "^1.0",
         "bk2k/bootstrap-package": "^11.0",
-        "georgringer/news": "^8.3"
+        "georgringer/news": "^8.3",
+        "dduers/xsite-sitepackage": "*"
     },
     "license": "MIT",
     "authors": [
