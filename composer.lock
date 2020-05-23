@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1fcca3441181e93a712f545266885806",
+    "content-hash": "b6e9a61e5f82c37a3b6174941d0415d4",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -1033,6 +1033,63 @@
                 }
             ],
             "time": "2020-04-29T09:08:29+00:00"
+        },
+        {
+            "name": "lavitto/typo3-fancybox",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/lavitto/typo3-fancybox.git",
+                "reference": "865d4aed5df610385f7d67e25c63430a872d90a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/lavitto%2Ftypo3-fancybox/repository/archive.zip?sha=865d4aed5df610385f7d67e25c63430a872d90a8",
+                "reference": "865d4aed5df610385f7d67e25c63430a872d90a8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0",
+                "typo3/cms-backend": "^8.7 | ^9.5 | ^10.4",
+                "typo3/cms-core": "^8.7 | ^9.5 | ^10.4",
+                "typo3/cms-extbase": "^8.7 | ^9.5 | ^10.4",
+                "typo3/cms-fluid": "^8.7 | ^9.5 | ^10.4",
+                "typo3/cms-fluid-styled-content": "^8.7 | ^9.5 | ^10.4",
+                "typo3/cms-frontend": "^8.7 | ^9.5 | ^10.4"
+            },
+            "replace": {
+                "lavitto/typo3-fancybox": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "fancybox",
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "web-dir": ".Build/Web"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Philipp Mueller",
+                    "email": "philipp.mueller@lavitto.ch",
+                    "homepage": "https://www.lavitto.ch"
+                }
+            ],
+            "description": "Fancybox for TYPO3",
+            "homepage": "https://www.lavitto.ch/typo3-ext-fancybox",
+            "keywords": [
+                "clickenlarge",
+                "extension",
+                "fancybox",
+                "image",
+                "lightbox",
+                "typo3"
+            ],
+            "time": "2020-04-06T11:55:21+00:00"
         },
         {
             "name": "lavitto/typo3-gridgallery",
@@ -4613,6 +4670,60 @@
                 }
             ],
             "description": "Fluid is a next-generation templating engine which makes the life of extension authors a lot easier!",
+            "homepage": "https://typo3.org",
+            "time": "2020-05-19T13:16:31+00:00"
+        },
+        {
+            "name": "typo3/cms-fluid-styled-content",
+            "version": "v10.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/fluid_styled_content.git",
+                "reference": "0c729ab7ed4d3c44bea1c683c84d7f465907a41a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/fluid_styled_content/zipball/0c729ab7ed4d3c44bea1c683c84d7f465907a41a",
+                "reference": "0c729ab7ed4d3c44bea1c683c84d7f465907a41a",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "10.4.3",
+                "typo3/cms-fluid": "10.4.3",
+                "typo3/cms-frontend": "10.4.3"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "10.4.x-dev"
+                },
+                "typo3/cms": {
+                    "Package": {
+                        "partOfFactoryDefault": true
+                    },
+                    "extension-key": "fluid_styled_content"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\FluidStyledContent\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A set of common content elements based on Fluid for Frontend output.",
             "homepage": "https://typo3.org",
             "time": "2020-05-19T13:16:31+00:00"
         },

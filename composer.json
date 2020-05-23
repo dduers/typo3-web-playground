@@ -17,7 +17,8 @@
         "typo3/cms-setup": "^10.4",
         "bk2k/bootstrap-package": "^11.0",
         "georgringer/news": "^8.3",
-        "lavitto/typo3-gridgallery": "^1.0"
+        "lavitto/typo3-gridgallery": "^1.0",
+        "lavitto/typo3-fancybox": "^1.0"
     },
     "license": "MIT",
     "authors": [
