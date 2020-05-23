@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8479e9895564b43adfa91dab9e82c350",
+    "content-hash": "44cd9f676fe9b2a5c142ccd71a695406",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -5666,7 +5666,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "dduers/xsite-sitepackage": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
