@@ -149,12 +149,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dduers/xsite-sitepackage.git",
-                "reference": "b44e47ca586dd344867dcabbaeb291843bca78ce"
+                "reference": "2d4ae661489058077cad41ae02a00b2d3558168a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dduers/xsite-sitepackage/zipball/b44e47ca586dd344867dcabbaeb291843bca78ce",
-                "reference": "b44e47ca586dd344867dcabbaeb291843bca78ce",
+                "url": "https://api.github.com/repos/dduers/xsite-sitepackage/zipball/2d4ae661489058077cad41ae02a00b2d3558168a",
+                "reference": "2d4ae661489058077cad41ae02a00b2d3558168a",
                 "shasum": ""
             },
             "require": {
@@ -175,7 +175,7 @@
             "keywords": [
                 "TYPO3 CMS"
             ],
-            "time": "2020-05-23T17:33:52+00:00"
+            "time": "2020-05-24T23:53:38+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -4004,16 +4004,16 @@
         },
         {
             "name": "typo3/class-alias-loader",
-            "version": "v1.1.2",
+            "version": "v1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/class-alias-loader.git",
-                "reference": "ead04a4d7bc215ca1faa895977c5ea349f0b7383"
+                "reference": "575f59581541f299f3a86a95b1db001ee6e1d2e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/class-alias-loader/zipball/ead04a4d7bc215ca1faa895977c5ea349f0b7383",
-                "reference": "ead04a4d7bc215ca1faa895977c5ea349f0b7383",
+                "url": "https://api.github.com/repos/TYPO3/class-alias-loader/zipball/575f59581541f299f3a86a95b1db001ee6e1d2e0",
+                "reference": "575f59581541f299f3a86a95b1db001ee6e1d2e0",
                 "shasum": ""
             },
             "require": {
@@ -4058,7 +4058,7 @@
                 "classloader",
                 "composer"
             ],
-            "time": "2020-05-07T12:46:20+00:00"
+            "time": "2020-05-24T13:03:22+00:00"
         },
         {
             "name": "typo3/cms-backend",
