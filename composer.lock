@@ -149,12 +149,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dduers/xsite-sitepackage.git",
-                "reference": "2d4ae661489058077cad41ae02a00b2d3558168a"
+                "reference": "b845d54ff56d234e5593d3f01ac5cd2dd1d9c556"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dduers/xsite-sitepackage/zipball/2d4ae661489058077cad41ae02a00b2d3558168a",
-                "reference": "2d4ae661489058077cad41ae02a00b2d3558168a",
+                "url": "https://api.github.com/repos/dduers/xsite-sitepackage/zipball/b845d54ff56d234e5593d3f01ac5cd2dd1d9c556",
+                "reference": "b845d54ff56d234e5593d3f01ac5cd2dd1d9c556",
                 "shasum": ""
             },
             "require": {
@@ -175,7 +175,7 @@
             "keywords": [
                 "TYPO3 CMS"
             ],
-            "time": "2020-05-24T23:53:38+00:00"
+            "time": "2020-05-25T00:13:09+00:00"
         },
         {
             "name": "doctrine/annotations",
