@@ -5,6 +5,7 @@
     "homepage": "http://www.xsite.ch",
     "license": "MIT",
     "require": {
+        "dduers/xsite-sitepackage": "*@dev"
     },
     "authors": [
         {
