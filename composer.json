@@ -2,6 +2,8 @@
     "name": "dduers/typo3-web-playground",
     "description": "TYPO3 Composer Installation Playground",
     "type": "project",
+    "homepage": "http://www.xsite.ch",
+    "license": "MIT",
     "require": {
         "helhum/typo3-secure-web": "^0.2.10",
         "typo3/cms-tstemplate": "^10.4",
@@ -15,18 +17,19 @@
         "typo3/cms-beuser": "^10.4",
         "typo3/cms-reports": "^10.4",
         "typo3/cms-setup": "^10.4",
-        "lavitto/typo3-gridgallery": "^1.0",
-        "lavitto/typo3-fancybox": "^1.0",
         "bk2k/bootstrap-package": "^11.0",
         "georgringer/news": "^8.3",
-        "dduers/xsite-sitepackage": "*@dev",
-        "reelworx/rx-shariff": "^13.0"
+        "reelworx/rx-shariff": "^13.0",
+        "lavitto/typo3-gridgallery": "^1.0",
+        "lavitto/typo3-fancybox": "^1.0",
+        "dduers/xsite-sitepackage": "*@dev"
     },
-    "license": "MIT",
     "authors": [
         {
             "name": "Daniel Duersteler",
-            "email": "daniel.duersteler@gmail.com"
+            "email": "daniel.duersteler@gmail.com",
+            "homepage": "http://www.xsite.ch",
+            "role": "Developer"
         }
     ],
     "extra": {
