@@ -1,6 +1,6 @@
 {
     "name": "dduers/typo3-web-playground",
-    "description": "TYPO3 Composer Installation Playground",
+    "description": "TYPO3 Web (Test)",
     "type": "project",
     "homepage": "http://www.xsite.ch",
     "license": "MIT",
