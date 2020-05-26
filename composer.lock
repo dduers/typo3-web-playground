@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e6057d147dd8a1c1cb665138b150a593",
+    "content-hash": "1306171cabd7c9d91db3712f2315df6a",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -149,33 +149,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dduers/xsite-sitepackage.git",
-                "reference": "bfe265e43a3bc53e19c107ba2518778f123412b1"
+                "reference": "2e3182c687eb4485e5bec0cd981519f4a8aca482"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dduers/xsite-sitepackage/zipball/bfe265e43a3bc53e19c107ba2518778f123412b1",
-                "reference": "bfe265e43a3bc53e19c107ba2518778f123412b1",
+                "url": "https://api.github.com/repos/dduers/xsite-sitepackage/zipball/2e3182c687eb4485e5bec0cd981519f4a8aca482",
+                "reference": "2e3182c687eb4485e5bec0cd981519f4a8aca482",
                 "shasum": ""
             },
             "require": {
                 "bk2k/bootstrap-package": "^11.0",
                 "georgringer/news": "^8.3",
-                "helhum/typo3-secure-web": "^0.2.10",
                 "lavitto/typo3-fancybox": "^1.0",
                 "lavitto/typo3-gridgallery": "^1.0",
-                "reelworx/rx-shariff": "^13.0",
-                "typo3/cms-belog": "^10.4",
-                "typo3/cms-beuser": "^10.4",
-                "typo3/cms-felogin": "^10.4",
-                "typo3/cms-form": "^10.4",
-                "typo3/cms-info": "^10.4",
-                "typo3/cms-lowlevel": "^10.4",
-                "typo3/cms-redirects": "^10.4",
-                "typo3/cms-reports": "^10.4",
-                "typo3/cms-scheduler": "^10.4",
-                "typo3/cms-setup": "^10.4",
-                "typo3/cms-t3editor": "^10.4",
-                "typo3/cms-tstemplate": "^10.4"
+                "reelworx/rx-shariff": "^13.0"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -192,7 +179,7 @@
             "keywords": [
                 "TYPO3 CMS"
             ],
-            "time": "2020-05-26T00:45:46+00:00"
+            "time": "2020-05-26T01:37:32+00:00"
         },
         {
             "name": "doctrine/annotations",
