@@ -2,7 +2,7 @@
     "name": "dduers/typo3-web-playground",
     "description": "TYPO3 Web (Test)",
     "type": "project",
-    "homepage": "http://www.xsite.ch",
+    "homepage": "http://playground.xsite.ch",
     "license": "MIT",
     "require": {
         "helhum/typo3-secure-web": "^0.2.10",
